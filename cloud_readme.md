@@ -28,12 +28,12 @@ For performance testing, you will need to run this assignment on a VM instance o
   <img src="handout/search-ami.png" alt="Search AMI" width="60%">
 </p>
 
-4. For `gpu` instance, search for `Deep Learning AMI GPU CUDA 11.4.3 (Ubuntu 20.04) 20230328` in `Community AMIs`. For `npu` instance, search for `Deep Learning AMI Neuron (Ubuntu 22.04) 20241221` in `Community AMIs`. Click `Select`.
+4. For `gpu` instance, search for `Deep Learning OSS Nvidia Driver AMI GPU PyTorch 2.6.0 (Amazon Linux 2023) 20250525` in `Community AMIs`. For `npu` instance, search for `Deep Learning AMI Neuron (Ubuntu 22.04) 20241221` in `Community AMIs`. Click `Select`.
 
 <p align="center">
   <img src="handout/select-ami-gpu.png" alt="Select AMI" width="100%">
   <br>
-  <em>Deep Learning AMI GPU CUDA 11.4.3 (Ubuntu 20.04) 20230328</em>
+  <em>Deep Learning OSS Nvidia Driver AMI GPU PyTorch 2.6.0 (Amazon Linux 2023) 20250525</em>
 </p>
 
 <p align="center">
