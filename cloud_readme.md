@@ -16,7 +16,7 @@ For performance testing, you will need to run this assignment on a VM instance o
 <p align="center">
   <img src="handout/request-resources.png?raw=true" alt="Requesting vCPUs for On-Demand instance" width="25%">
 </p>
-3. Now you're ready to create a VM instance. Go back to [Console Home](https://us-west-2.console.aws.amazon.com/console/home?region=us-west-2) and click on the button that says `Launch instance`.
+3. Now you're ready to create a VM instance. Go back to [AWS EC2 dashboard](https://us-west-2.console.aws.amazon.com/console/home?region=us-west-2) and click on the button that says `Launch instance`.
 
 <p align="center">
   <img src="handout/launch-instance.png?raw=true" alt="Launch Trainium instance" width="25%">
