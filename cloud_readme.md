@@ -12,10 +12,14 @@ For performance testing, you will need to run this assignment on a VM instance o
   <img src="handout/switch-region.png" alt="Switch region" width="25%">
 </p>
 
-2. Now you're ready to create a VM instance. Click on the button that says `Launch instance`.
+2. Now you're ready to create a VM instance. Before launching a VM, you may need to request resources for it. Go to [https://us-west-2.console.aws.amazon.com/servicequotas/home/dashboard ](Service Quotas dashboard) and select Amazon EC2. In the search bar type "Running On-Demand Trn instances" and make sure you have 8 vCPUs allocated. 
+<p align="center">
+  <img src="handout/request-resources.png?raw=true" alt="Requesting vCPUs for On-Demand instance" width="25%">
+</p>
+3.Click on the button that says `Launch instance`.
 
 <p align="center">
-  <img src="handout/launch-instance.png?raw=true" alt="Launch instance" width="25%">
+  <img src="handout/launch-instance.png?raw=true" alt="Launch Trainium instance" width="25%">
 </p>
 
 3. Click on `Browse more AMIs` AMI.
