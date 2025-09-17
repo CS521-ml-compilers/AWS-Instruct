@@ -12,7 +12,7 @@ For performance testing, you will need to run this assignment on a VM instance o
   <img src="handout/switch-region.png" alt="Switch region" width="25%">
 </p>
 
-2. Before launching a VM, you may need to request resources for it. Go to [Service Quotas dashboard](https://us-west-2.console.aws.amazon.com/servicequotas/home/dashboard) and select Amazon EC2. In the search bar type "Running On-Demand Trn instances". Select it and click on `Request increase at account level`. Enter 8 vCPUs and submit the resource request. 
+2. Before launching a VM, you will need to request resources for it. Go to [Service Quotas dashboard](https://us-west-2.console.aws.amazon.com/servicequotas/home/dashboard) and select Amazon EC2. For `npu` part, in the search bar type `Running On-Demand Trn instances`. Select it and click on `Request increase at account level`. Enter 8 vCPUs and submit the resource request. For 'gpu' part, search for `Running On-Demand DL instances` and request 8 vCPUs similarly.
 <p align="center">
   <img src="handout/request-resources.png" alt="Requesting vCPUs for On-Demand instance" width="25%">
 </p>
@@ -28,7 +28,7 @@ For performance testing, you will need to run this assignment on a VM instance o
   <img src="handout/search-ami.png" alt="Search AMI" width="60%">
 </p>
 
-4. For `gpu` part, search for `Deep Learning AMI GPU CUDA 11.4.3 (Ubuntu 20.04) 20230328` in `Community AMIs`. For `npu` part, search for `Deep Learning AMI Neuron (Ubuntu 22.04) 20241221` in `Community AMIs`. Click `Select`.
+4. For `gpu` instance, search for `Deep Learning AMI GPU CUDA 11.4.3 (Ubuntu 20.04) 20230328` in `Community AMIs`. For `npu` instance, search for `Deep Learning AMI Neuron (Ubuntu 22.04) 20241221` in `Community AMIs`. Click `Select`.
 
 <p align="center">
   <img src="handout/select-ami-gpu.png" alt="Select AMI" width="100%">
@@ -43,7 +43,7 @@ For performance testing, you will need to run this assignment on a VM instance o
 </p>
 
 
-5. For `gpu` part, choose the `g5.2xlarge` instance type. For `npu` part, choose the `trn1.2xlarge` instance type.
+5. For `gpu` instance, choose the `g5.2xlarge` instance type. For `npu` instance, choose the `trn1.2xlarge` instance type.
 
 <p align="center">
   <img src="handout/choose-instance-gpu.png" alt="Choose instance type" width="80%">
